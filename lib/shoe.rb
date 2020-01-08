@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if brand != brand
+    if brand != self
       BRANDS << brand
     end
   end
